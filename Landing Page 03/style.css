@@ -1,0 +1,177 @@
+/* You can not modify anything from the HTML file */
+/* You can only modify the CSS file */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+
+/* Navbar */
+.container{
+    margin-inline: 10%;
+}
+
+.navbar-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-block: 4%;
+}
+
+.list{
+    display: flex;
+    gap:50px;
+}
+
+.list-item{
+    list-style-type: none;
+    font-size: 1.5rem;
+    font-weight: 500;
+    color:#2b2929;
+}
+ 
+.list-item:first-child{
+    color:#000000;
+    font-weight: 600;
+    border-width: 3.5px;
+    border-bottom-style:solid;
+        
+}
+
+.button-group{
+    display: flex;
+    align-items: center;
+}
+
+.search-icon svg{
+    width:100%;
+    padding-top: 10px;
+    padding-right: 15px;
+}
+
+.nav-button{
+    color:#595555;
+    background-color: #fff;
+    padding: 5px 40px;
+    font-size: 1.4rem;
+    border: 3px solid black;
+    border-radius: 14px;
+}
+
+
+/* Hero Section */
+.hero-container{
+   position: relative;
+}
+
+.square{
+    position: absolute;
+    top:265px;
+    left:150px;
+}
+
+.square img{
+    width: 70%;
+}
+
+.hero-container div img{
+    position: relative;
+    top:25px;
+    width: 32%;
+}
+
+.star:nth-child(2){
+position: absolute;
+top:490px;
+right:650px;
+width:5%;
+}
+
+.star{
+    position: absolute;
+    top:40px;
+    right: -15px;
+}
+
+.star img{
+    width:80%;
+}
+
+.globe{
+    position: absolute;
+    left:660px;
+    top: 0;
+}
+
+.globe img{
+    width: 80%;
+}
+
+
+.hero-container-right{
+    position: absolute;
+    top:100px;
+    left: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap:30px;
+}
+
+.hero-heading{
+    font-size: 3.9rem;
+    font-weight: 600;
+}
+
+.hero-description{
+    text-align: center;
+    font-size: 0.8rem;
+    font-weight: 500;
+    padding-inline: 10%;
+    color:#595555;
+    margin-bottom: 6%;
+}
+
+.button-email{
+    padding: 3px 25px;
+    background-color: #fff;
+    color:#595555;
+    font-size: 1.2rem;
+    font-weight: 600;
+    border-radius: 10px;
+    margin-right: 20px;
+}
+
+.button-join{
+    padding: 3px 5px;
+    background-color: #000000;
+    color: #fff;
+    font-size: 1.2rem;
+    font-weight: 500;
+    border-radius: 10px;
+} 
+
+.contact-heading{
+    margin-top: 40%;
+    color:#595555;
+    font-size: 1.2rem;
+    font-weight: 500;
+    text-align: center;
+}
+
+.icons span{
+    margin-inline:4% ;
+}
+
+.icons span img{
+    position: relative;
+    top :10px;
+    width:15%;
+    padding-bottom: 6%;
+}
